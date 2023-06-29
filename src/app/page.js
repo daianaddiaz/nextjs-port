@@ -37,7 +37,7 @@ export default function Home() {
           <h3 className="text-2xl py-2 font-def dark:text-teal-300 font-semibold font-mono underline decoration-sky-500">Developer and Designer</h3>
           <p className="text-l font-medium py-5 mx-auto leading-8 text-gray-800 md:text-xl max-w-xl dark:text-white">Aspiring Jr. Front-End Developer Seeking Opportunities to Grow. Join me down below and enjoy my works!</p>
           <div className="relative bg-gradient-to-b from-emerald-500 mx-auto h-80 w-80 rounded-full my-10 overflow-hidden drop-shadow-lg ">
-          <Image src={ProfileImage} className="fill cover "  />
+          <Image src={ProfileImage} className="fill cover " alt='profile' />
         </div>
         </div>
         <div className="text-5xl flex justify-center gap-16 py-3 text-sky-500 dark:text-sky-300">
@@ -57,7 +57,7 @@ export default function Home() {
         <div className="md:flex lg:flex gap-10">
         <div className="text-center shadow-lg rounded-xl  mx-20 p-10 my-10 pb-8 dark:bg-indigo-900">
           <div className="flex justify-center">
-            <Image src={Technologies} width={300} height={300} />
+            <Image src={Technologies} width={300} height={300} alt='cpu' />
           </div>
           <div className="text-center">
             <h3 className="text-3xl pb-1 font-abc dark:text-teal-300 ">Hard Skills</h3>
@@ -77,7 +77,7 @@ export default function Home() {
         </div>
         <div className="text-center shadow-lg rounded-xl p-10 mx-20 my-10 pb-8 dark:bg-indigo-900">
         <div className="flex justify-center">
-          <Image src={Works} width={300} height={300}/>
+          <Image src={Works} width={300} height={300} alt='work'/>
         </div>
           <div className="text-center pb-8">
           <h3 className="text-3xl pb-1 font-abc dark:text-teal-300 ">Projects</h3>
@@ -87,13 +87,13 @@ export default function Home() {
               <li className="m-5"><a className="bg-gradient-to-r from-emerald-500 to-sky-500 text-white px-4 py-2 rounded-md " href="https://649b46469506ac05c1cea5b7--delicate-cucurucho-627023.netlify.app/index.htm" target="_blank">Restaurant Web Page</a></li>
               <li><a className="text-5xl flex justify-center gap-14 pt-5 pb-3 text-sky-500" href="https://github.com/daianaddiaz/front-end-proyect" target="_blank"><FaCode/></a></li>
               <li className="m-5"><a className="bg-gradient-to-r from-emerald-500 to-sky-500 text-white px-4 py-2 rounded-md " href="#" target="_blank">E-Commerce</a></li>
-              <li><a className="text-5xl flex justify-center gap-14 pt-5 pb-3 text-sky-500" href="https://github.com/daianaddiaz/front-end-proyect" target="_blank"><FaCode/></a></li>
+              <li><a className="text-5xl flex justify-center gap-14 pt-5 pb-3 text-sky-500" href="https://github.com/daianaddiaz/e-commerce-react" target="_blank"><FaCode/></a></li>
             </ul>
           </div>
         </div>
         <div className="text-center shadow-lg rounded-xl mx-20 my-10 pb-8 dark:bg-indigo-900">
           <div className="flex justify-center">
-            <Image src={Contact} width={300} height={300} />
+            <Image src={Contact} width={300} height={300} alt='contact'/>
           </div>
           <div className="text-center">
             <h3 className="text-3xl pb-1 font-abc dark:text-teal-300 ">Contact Me</h3>
@@ -103,7 +103,7 @@ export default function Home() {
               <li className="flex justify-center m-5"> <FaPhone className="w-7 h-7 mx-1 y-2 pt-3 dark:text-teal-300"/> <p className="text-s leading-10 text-gray-600 dark:text-white">+541167181279</p></li>
             </ul>
             <div className="flex justify-center">
-            <Image src={Girl} width={300} height={300} />
+            <Image src={Girl} width={300} height={300} alt='girl-design' />
           </div>
           </div>
         </div>
